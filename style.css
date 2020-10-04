@@ -58,9 +58,16 @@ body {
   height: 0;
   content: "";
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: 958px;
   border-top: 30px solid transparent;
   border-left: 60px solid #203864;
   border-bottom: 30px solid transparent;
 }
+
+.shape-text {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+    
