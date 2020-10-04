@@ -1,11 +1,11 @@
-.dropdown {
+/* .dropdown {
     float: left;
     overflow: hidden;
-}
-
-/* .dropdown-content {
-    display: none;
 } */
+
+.dropdown-content {
+    display: none;
+}
 
 .dropdown:hover .dropdown-content{
     display: block;
