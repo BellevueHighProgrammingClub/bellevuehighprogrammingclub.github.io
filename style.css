@@ -47,10 +47,13 @@ body {
 
 
 .rectangle {
+  top: 0;
   height: 60px;
   width: 950px;
   background-color: #203864;
   left: 0px;
+  margin: 0;
+  padding: 0;
 }
   
 .rectangle:before {
@@ -67,7 +70,7 @@ body {
 
 .shape-text {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     padding: 20px 0;
     font-family: 'Krona One', sans-serif;
