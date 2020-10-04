@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Mentoring Information
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="topnav">
+        <a href="https://bellevuehighprogrammingclub.github.io/">BHSProgrammingClub</a>
+        <a class="active" href="https://bellevuehighprogrammingclub.github.io/mentoring">Mentoring</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Members</a>
+            <div class="dropdown-content">
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+            </div>
+        </div>
+        <a href="contact.html">Contact Us</a>
+        </div>
+        <h1> Mentoring Information </h1>
+        <ul>
+            <li>
+                <p> Contact Email: <p>
+                <a href="mailto:s-duncanc@bsd405.org">
+                s-duncanc@bsd405.org
+                </a></li>
+            <li>
+                <p> Meeting Schedule: <p>
+                <a>
+                Fridays 12:00PM-1:00PM
+                </a></li>
+            <li>
+                <p> Our Mentors: <p>
+                <a href="https://m.youtube.com/watch?v=dQw4w9WgXcQ">
+                Coming Soon™
+                </a></li>
+        <ul>
+    </body>
+</html>
