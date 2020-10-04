@@ -41,5 +41,6 @@ body {
 
 /* Active link */
 .topnav a.active {
-  background-color: #ffd966;
+  background-color: #00235D;
+  color:white;
 }
