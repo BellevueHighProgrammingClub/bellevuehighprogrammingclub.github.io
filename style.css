@@ -44,3 +44,23 @@ body {
   background-color: #00235D;
   color:white;
 }
+
+
+.rectangle {
+  height: 60px;
+  width: 950px;
+  background-color: #203864;
+  left: 0px;
+}
+  
+.rectangle:before {
+  width: 0;
+  height: 0;
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 958px;
+  border-top: 30px solid transparent;
+  border-left: 60px solid #203864;
+  border-bottom: 30px solid transparent;
+}
