@@ -3,12 +3,31 @@
     overflow: hidden;
 }
 
-.dropdown-content {
-    display: none;
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: #0b2727;
+  padding: 0;
+  background-color: inherit;
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
+.dropdown-content {
+    display: none;
+      position: absolute;
+      background-color: #fee2b4;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #0b2727;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 body {
