@@ -16,14 +16,13 @@ body {
 
 /* Style the navigation menu */
 .topnav {
-  width: 100%;
   background-color: #fee2b4;
   overflow: hidden;
   margin: 0px;
   padding: 0px;
   left: 0;
   top: 0;
-  width: 105%;
+  width: 102%;
   overflow: hidden;
   vertical-align: middle;
   
