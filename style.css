@@ -21,11 +21,11 @@ body {
   margin: 0px;
   padding: 0px;
   left: 0;
-  top: 0;
+  top: 60px;
   width: 100%;
   overflow: hidden;
   vertical-align: middle;
-  
+  position: absolute;
 }
 
 /* Navigation links */
@@ -53,6 +53,7 @@ body {
   background-color: #203864;
   left: 0px;
   top: 0px;
+  position: absolute;
   
 }
   
@@ -72,6 +73,7 @@ body {
     text-align: center;
     font-size: 20px;
     color: white;
-    padding: 20px 0;
     font-family: 'Krona One', sans-serif;
+    top: 50%;
+    width: 100%;
 }
