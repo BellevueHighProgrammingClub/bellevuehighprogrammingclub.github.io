@@ -1,5 +1,6 @@
 .calendar {
     position: relative;
+    margin: auto;
 }
 
 .calendar iframe {
