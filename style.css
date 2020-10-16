@@ -77,3 +77,8 @@ body {
     top: 50%;
     width: 100%;
 }
+
+.non-header {
+    margin-top: 110px;
+    position: absolute;
+}
