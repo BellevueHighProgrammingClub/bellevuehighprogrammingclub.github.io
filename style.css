@@ -1,10 +1,3 @@
-.dropdown-content {
-    display: none;
-}
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}
 
 body {
     background-color: rgb(255, 217, 102);
@@ -23,14 +16,13 @@ body {
   left: 0;
   top: 60px;
   width: 100%;
-  overflow: hidden;
   vertical-align: middle;
   position: absolute;
 }
 
 /* Navigation links */
-.topnav a {
-  float: left;
+.topnav > a, .dropdown, .members-button {
+  display: inline-block;
   padding: 12px;
   color: #0b2727;
   text-decoration: none;
@@ -44,6 +36,59 @@ body {
 .topnav a.active {
   background-color: #203864;
   color:white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+.dropdown > a {
+  width: 100%;
+  height: 100%;
+  padding: 12px 0px;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #203864;
+    z-index: 1;
+    width: 17.4%;
+    height: 300px;
+    overflow: auto;
+}
+
+.dropdown-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dropdown-content::-webkit-scrollbar-track {
+  background: #4b6086;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+  background: #0e2d5d;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb:hover {
+  background: #032257;
+}
+
+.dropdown-content a {
+  color: white;
+  display: block;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #304772;
 }
 
 
