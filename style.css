@@ -22,15 +22,23 @@ body {
 
 /* Navigation links */
 .topnav > a, .dropdown, .members-button {
+
   display: inline-block;
   padding: 12px;
   color: #0b2727;
   text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  
   font-size: 17px;
   width: 17.4%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
   font-family: 'Merriweather Sans', sans-serif;
-  transition: 0.05s;
+}
+
+.members-button {
+  width: 100%;
 }
 
 .topnav > a:hover, .dropdown:hover .members-button {
