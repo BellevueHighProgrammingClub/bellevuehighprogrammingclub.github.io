@@ -1,9 +1,8 @@
 .calendar {
     position: relative;
-    margin: auto;
 }
 
-.calendar iframe {
+iframe {
     margin-left: auto;
     margin-right: auto;
     display: block;
