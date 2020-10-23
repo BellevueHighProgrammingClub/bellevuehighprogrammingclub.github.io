@@ -125,5 +125,5 @@ body {
 
 .non-header {
     margin-top: 110px;
-    position: absolute;
+    position: relative;
 }
