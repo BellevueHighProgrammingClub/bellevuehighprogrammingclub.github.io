@@ -33,7 +33,7 @@ body {
 }
 
 /* Active link */
-.active {
+.topnav a.active {
   background-color: #203864;
   color:white;
 }
