@@ -30,13 +30,21 @@ body {
   width: 17.4%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
   font-family: 'Merriweather Sans', sans-serif;
+  transition: 0.05s;
 }
+
+.topnav > a:hover, .dropdown:hover .members-button {
+  background-color: #203864;
+  color:white;
+}
+
 
 /* Active link */
 .topnav .active {
   background-color: #203864;
   color:white;
 }
+
 
 .dropdown {
   position: relative;
@@ -51,16 +59,18 @@ body {
 }
 
 .dropdown:hover .dropdown-content{
-  display: block;
+  
+  height: 100%;
 }
 
 .dropdown-content {
-    display: none;
+    height: 0%;
     position: fixed;
     background-color: #203864;
     z-index: 1;
     width: 17.4%;
-    height: 300px;
+    max-height: 300px;
+    transition: 0.5s;
     overflow: auto;
 }
 
