@@ -33,11 +33,9 @@ body {
   transition: 0.05s;
 }
 
-.topnav > a:hover, .dropdown:hover .members-button {
-  background-color: #203864;
-  color:white;
+.topnav > a:not(.active):hover, .dropdown:hover .members-button {
+  background-color: #ecd1a4;
 }
-
 
 /* Active link */
 .topnav .active {
@@ -70,7 +68,7 @@ body {
     z-index: 1;
     width: 17.4%;
     max-height: 300px;
-    transition: 0.5s;
+    transition: 0.3s;
     overflow: auto;
 }
 
@@ -79,15 +77,15 @@ body {
 }
 
 .dropdown-content::-webkit-scrollbar-track {
-  background: #4b6086;
-}
-
-.dropdown-content::-webkit-scrollbar-thumb {
   background: #0e2d5d;
 }
 
+.dropdown-content::-webkit-scrollbar-thumb {
+  background: #4b6086;
+}
+
 .dropdown-content::-webkit-scrollbar-thumb:hover {
-  background: #032257;
+  background: #5a6f96;
 }
 
 .dropdown-content a {
