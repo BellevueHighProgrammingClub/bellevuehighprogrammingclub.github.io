@@ -30,6 +30,8 @@ body {
   border: none;
   outline: none;
   background-color: inherit;
+  /* used to not have this float line */
+  float: left;
   
   font-size: 17px;
   width: 17.4%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
@@ -66,7 +68,8 @@ body {
 }
 
 .dropdown-content {
-  margin-top: 12px;
+  /* used to be 12px for margin top instead of 2.2% */
+  margin-top: 2.2%;
   height: 0%;
   position: fixed;
   background-color: #203864;
