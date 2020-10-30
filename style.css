@@ -67,7 +67,6 @@ body {
 .dropdown-content {
   /* used to be 12px for margin top instead of 2.2% */
   margin-top: 33.5px;
-
   height: 0%;
   position: absolute;
   background-color: #203864;

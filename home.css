@@ -1,5 +1,6 @@
-.calendar {
-    position: relative;
+.calendarLink {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 iframe {
