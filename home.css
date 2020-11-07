@@ -13,4 +13,5 @@ body {
     background-image: url("homepage.png");
     background-position: 0px 20px;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
