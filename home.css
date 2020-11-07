@@ -18,7 +18,7 @@ body {
 
 .title-text {
     font-family: 'Open Sans', sans-serif;
-    margin-right: 300px;
+    margin-right: 700px;
     color: white;
     margin-top: 275px;
     font-size: 60px;
@@ -29,5 +29,5 @@ h1 {
 }
 
 .after-intro-image {
-    margin-top: 500px;
+    margin-top: 375px;
 }
