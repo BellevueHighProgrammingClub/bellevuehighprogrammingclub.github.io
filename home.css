@@ -16,14 +16,21 @@ body {
     background-repeat: no-repeat;
 }
 
+.homepage-background-text {
+    /*margin-right: 450px;*/
+}
+
 .title-text {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     color: white;
     margin-top: 275px;
-    font-size: 75px;
+    font-size: 60px;
 }
 
 h1 {
     background-color: transparent;
+}
+
+.after-intro-image {
+    margin-top: 200px;
 }
