@@ -8,3 +8,10 @@ iframe {
     margin-right: auto;
     display: block;
 }
+
+body {
+    background-image: url("homepage_image.PNG");
+    background-position: 0px 105px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
