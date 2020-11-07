@@ -15,3 +15,9 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.title-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 60%;
