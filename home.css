@@ -20,5 +20,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
-    margin-top: 60%;
+    /*margin-top: 60%;*/
+}
+
+h1 {
+    background-color: transparent;
 }
