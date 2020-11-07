@@ -145,3 +145,33 @@ h1 {
   padding: 30px 140px;
   font-family: 'Krona One', sans-serif;
 }
+
+.page {
+  margin: 0px 0px 0px 12.5%;
+  margin-top: 15px;
+  width: 75%;
+  height: 100%;
+  background: white;
+  box-shadow: 0.1px 0.1px 2px #070707;
+  overflow: hidden;
+}
+
+.page-content {
+  margin: 20px 0 0px 20px;
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.page-content > ul {
+  list-style-type: none;
+}
+
+.information {
+  margin-bottom: 30px;
+}
+
+.information p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
