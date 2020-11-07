@@ -8,3 +8,9 @@ iframe {
     margin-right: auto;
     display: block;
 }
+
+body {
+    background-image: "homepage.png";
+    background-position: 0px 20px;
+    background-size: 100%;
+}
