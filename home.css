@@ -10,7 +10,7 @@ iframe {
 }
 
 body {
-    background-image: "homepage.png";
+    background-image: url("homepage.png");
     background-position: 0px 20px;
     background-size: 100%;
 }
