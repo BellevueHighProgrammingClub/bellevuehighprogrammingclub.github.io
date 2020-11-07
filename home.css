@@ -20,7 +20,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: white;
-    /*margin-top: 60%;*/
+    margin-top: 200px;
+    font-size: 100px;
 }
 
 h1 {
