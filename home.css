@@ -21,9 +21,13 @@ body {
     text-align: center;
     color: white;
     margin-top: 275px;
-    font-size: 75px;
+    font-size: 60px;
 }
 
 h1 {
     background-color: transparent;
+}
+
+.after-intro-image {
+    margin-top: 1000px;
 }
