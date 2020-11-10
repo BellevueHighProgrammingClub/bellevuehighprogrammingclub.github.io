@@ -76,3 +76,10 @@ h1 {
     width: 100%;
     height: 500px;
 }
+
+#calendar-div {
+    width: 100%;
+    height: 600px;
+    
+    background-color: #dedede;
+}
