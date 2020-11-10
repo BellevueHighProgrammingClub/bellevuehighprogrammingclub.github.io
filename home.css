@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-
+/*
 .calendarLink {
     font-size: 15px;
     font-family: 'Titillium Web', sans-serif;
@@ -9,6 +9,14 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+*/
+
+.calendar {
+    float: left;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 75px;
 }
 /*
 body {
