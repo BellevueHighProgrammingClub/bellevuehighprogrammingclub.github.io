@@ -56,8 +56,9 @@ h1 {
 
 #trapezoid-1 {
     text-align: center;
-    line-height: 150px;
     color: white;
+    display: flex;
+    align-items: center;
     
     float: left;
     border-bottom: 250px solid #203864;
