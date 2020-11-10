@@ -58,6 +58,7 @@ h1 {
     text-align: center;
    /* line-height: 250px; */
     color: white;
+    display: table;
     
     float: left;
     border-bottom: 250px solid #203864;
@@ -65,6 +66,11 @@ h1 {
     border-right: 50px solid transparent;
     height: 0;
     width: 50%;
+}
+
+#trapezoid-1 p  {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #large-text {
