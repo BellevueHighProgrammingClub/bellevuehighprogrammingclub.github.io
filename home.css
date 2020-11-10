@@ -37,6 +37,9 @@ h1 {
 */
 
 #trapezoid-1 {
+    text-align: center;
+    line-height: 250px; 
+    
     float: left;
     border-bottom: 250px solid #203864;
     border-left: 0px solid transparent;
