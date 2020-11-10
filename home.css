@@ -20,7 +20,7 @@ iframe {
 }
 
 #calendar-text {
-    all: initial !important;
+    all: unset !important;
     
     float: left;
     height: 510px;
