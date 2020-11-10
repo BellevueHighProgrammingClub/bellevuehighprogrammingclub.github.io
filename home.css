@@ -58,7 +58,7 @@ h1 {
     float: left;
     position: absolute;
     margin-left: calc(-50px - 50%);
-    width: 100%;
+    width: 50%;
     z-index: -1;
     clip-path: polygon(0% 0%, 100% 0%, 100% 500px, 0% 500px);
 }
