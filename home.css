@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 /*
 .calendarLink {
     font-size: 15px;
@@ -20,7 +21,6 @@ iframe {
 }
 
 #calendar-text {
-    
     float: left;
     height: 510px;
     margin: 45px;   
@@ -56,7 +56,7 @@ h1 {
 #trapezoid-1 {
     text-align: center;
     line-height: 250px; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 50px;
     
