@@ -18,6 +18,13 @@ iframe {
     margin-right: 45px;
     margin-top: 45px;
 }
+
+#calendar-text {
+    float: left;
+    height: 510px;
+    margin-right: 45px;
+    margin-top: 45px;
+}
 /*
 body {
     background-image: url("homepage_image.PNG");
