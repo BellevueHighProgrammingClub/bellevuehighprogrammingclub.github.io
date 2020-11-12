@@ -26,33 +26,6 @@ iframe {
     height: 510px;
     margin: 45px;   
 }
-/*
-body {
-    background-image: url("homepage_image.PNG");
-    background-position: 0px 105px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.homepage-background-text {
-    margin-left: 233px !important;
-}
-
-.title-text {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    margin-top: 300px;
-    font-size: 60px;
-}
-
-h1 {
-    background-color: transparent;
-}
-
-.after-intro-image {
-    margin-top: 225px;
-}
-*/
 
 #trapezoid-1 {
     text-align: center;
@@ -79,6 +52,9 @@ h1 {
 }
 
 #trapezoid-2 {
+    text-align: center;
+    line-height: 250px;
+    
     float: left;
     border-bottom: 250px solid #fee2b4;
     border-left: 0px solid transparent;
