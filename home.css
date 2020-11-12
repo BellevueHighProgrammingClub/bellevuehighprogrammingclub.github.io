@@ -91,15 +91,15 @@ iframe {
 }
 
 #about-text {
-    float: left;
+    float: right;
     width: 60%;
-    margin-left: 45px;
+    margin-right: 45px;
     margin-top: 45px;
 }
 
 #about-image {
-    float: right;
-    margin-right: 45px;
+    float: left;
+    margin-left: 45px;
     margin-top: 45px;
 }
 
