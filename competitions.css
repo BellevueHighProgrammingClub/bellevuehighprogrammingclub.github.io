@@ -2,6 +2,6 @@ table, th, td {
 border: 1px solid black;
 }
 
-body {
+.non-header {
   margin: 45px;
 }
