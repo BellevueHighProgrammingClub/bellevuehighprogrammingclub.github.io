@@ -147,7 +147,7 @@ h1 {
 }
 
 .page {
-  margin: 0px 0px 0px 12.5%;
+  margin: 0px 0px 0px 25%;
   margin-top: 15px;
   width: 75%;
   height: 100%;
@@ -157,7 +157,7 @@ h1 {
 }
 
 .page-content {
-  margin: 20px 0 0px 20px;
+  margin: 20px 0px 0px 20px;
   margin-top: 50px;
   padding: 0px;
 }
