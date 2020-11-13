@@ -105,14 +105,16 @@ iframe {
     width: 60%;
     margin-right: 45px;
     margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 #about-image {
     float: left;
     margin-left: 45px;
     margin-top: 45px;
+    width: 30%;
 }
 
 #about-image img {
-    width: 30%;
+    width: 100%;
 }
