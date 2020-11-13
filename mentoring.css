@@ -1,3 +1,7 @@
 .column {
   width: 100%
 }
+
+.contactDescription {
+  display: inline
+}
