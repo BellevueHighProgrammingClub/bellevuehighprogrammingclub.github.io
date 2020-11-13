@@ -54,6 +54,8 @@ iframe {
 #trapezoid-2 {
     text-align: center;
     line-height: 300px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
     
     float: left;
     border-bottom: 300px solid #fee2b4;
