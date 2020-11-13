@@ -89,6 +89,7 @@ iframe {
 #calendar-div {
     width: 100%;
     height: fit-content;
+    float: left;
     
     background-color: #ededed;
 }
