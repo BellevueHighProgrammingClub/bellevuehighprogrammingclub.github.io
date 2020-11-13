@@ -18,6 +18,10 @@ body {
   width: 100%;
   height: fit-content;
   vertical-align: middle;
+    
+    
+  /*delete this if it doesn't work*/
+  position: sticky;
 }
 
 /* Navigation links */
