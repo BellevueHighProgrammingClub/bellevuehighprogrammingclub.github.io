@@ -186,3 +186,15 @@ h1 {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
+/*
+trying out a sticky navbar.
+delete stuff below if it doesn't work.
+*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 0px;
+}
