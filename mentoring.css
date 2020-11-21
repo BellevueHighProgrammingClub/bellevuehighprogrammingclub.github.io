@@ -5,3 +5,11 @@
 .contactDescription {
   display: inline-block;
 }
+
+.left-page {
+  float: left;
+  margin: 0px 15px;
+  width: 15%;
+  background: white;
+  box-shadow: 0.1px 0.1px 2px #070707;
+}
