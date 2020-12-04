@@ -217,3 +217,7 @@ delete stuff below if it doesn't work.
     font-family: 'Cormorant', sans-serif;
     font-size: 50px;
 }
+
+img {
+  border-radius: 50%;
+}
