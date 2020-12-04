@@ -212,10 +212,10 @@ delete stuff below if it doesn't work.
 
 .name{
     margin-top: 0px;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     padding: 30px;
     font-family: 'Cormorant', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 img {
