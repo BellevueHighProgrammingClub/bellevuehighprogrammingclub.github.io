@@ -218,6 +218,10 @@ delete stuff below if it doesn't work.
     font-size: 50px;
 }
 
+div.a {
+  line-height: normal;
+}
+
 img {
   border-radius: 50%;
 }
