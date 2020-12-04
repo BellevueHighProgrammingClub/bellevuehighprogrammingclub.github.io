@@ -162,7 +162,7 @@ h1 {
 }
 
 .content-wrapper {
-  margin: auto;
+  margin: 10 px;
   width: 95%;
   max-width: fit-content;
   margin-top: 15px;
@@ -215,7 +215,7 @@ delete stuff below if it doesn't work.
     margin-bottom: 0px;
     padding: 30px;
     font-family: 'Cormorant', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 img {
