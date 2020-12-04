@@ -60,7 +60,7 @@ body {
   margin: 0px;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover #dropdown-content{
   height: 100%;
 }
 
