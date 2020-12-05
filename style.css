@@ -71,7 +71,7 @@ body {
   position: absolute;
   background-color: #203864;
   z-index: 1;
-  min-width: 17.4%;
+  min-width: 15%;
   max-height: 300px;
   transition: 0.3s;
   overflow: auto;
