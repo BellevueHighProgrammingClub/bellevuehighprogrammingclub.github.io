@@ -33,7 +33,7 @@ body {
   float: left;
   
   font-size: 17px;
-  width: 12.43%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
   font-family: 'Merriweather Sans', sans-serif;
 }
