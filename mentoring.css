@@ -15,9 +15,10 @@
 }
 
 .right-page {
+  visibility: hidden;
   float: right;
   margin: 0px 15px;
-  width: 225px;
+  min-width: 225px;
   background: white;
   box-shadow: 0.1px 0.1px 2px #070707;
 }
