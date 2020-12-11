@@ -28,7 +28,7 @@ function makeSticky() {
     navbar.classList.add("sticky");
     dropdown.classList.add("dropdown-sticky");
     content.style.marginTop = navbarHeight;
-  } 
+  }
   else {
     navbar.classList.remove("sticky");
     content.style.marginTop = "0px";
@@ -36,3 +36,9 @@ function makeSticky() {
 
   }
 }
+
+$(document).ready(() => {
+  $(".img-with-popup-wrapper").hover(function() {
+    console.log(this);
+  });
+});

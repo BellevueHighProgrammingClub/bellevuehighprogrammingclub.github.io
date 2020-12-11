@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <div class="heading">
@@ -64,31 +66,46 @@
     <div class="homepage-background-text">
         <h1 class="title-text">BHS Programming Club</h1>
     </div>
-    
+
     <div class="after-intro-image">
         <div class="calendarLink">
             <a href="calendar.html">Calendar</a>
         </div>
     </div>
     ---->
-    
+
     <div id="about-us">
         <div id="about-image">
             <img style="border-radius: 0px !important;" src="images/about-us-image_noBG.png">
         </div>
         <div id="about-text">
             <h2>About the BHS Programming Club</h2>
-            <p>We are a club of high school students passionate about computer programming from Bellevue High School. Club members 
+            <p>We are a club of high school students passionate about computer programming from Bellevue High School. Club members
                 collaborate with each other on various projects such as website building, GameMaker, and learning Python to improve their programming skills.</p>
             <h2>Leadership</h2>
-            <img src="images/KatherinePalevich.jpg" alt="Katherine Palevich" width="125">
-            <img src="images/CameronShokri.jpg" alt="Cameron Shokri" height="125">
-            <img src="images/JacquelinePalevich.JPG" alt="Jacqueline Palevich" width="125">
-            <img src="images/ConnorDuncan.jpg" alt="Connor Duncan" width="125">
-            <img src="images/WilliamGvozdjak.jpg" alt="William Gvozdjak" width="125">
+            <div class="img-with-popup-wrapper">
+              <img src="images/KatherinePalevich.jpg" alt="Katherine Palevich" width="125">
+              <div class="img-overlay"><p>Katherine Palevich</p></div>
+            </div>
+            <div class="img-with-popup-wrapper">
+              <img src="images/CameronShokri.jpg" alt="Cameron Shokri" height="125">
+              <div class="img-overlay"><p>Cameron Shokri</p></div>
+            </div>
+            <div class="img-with-popup-wrapper">
+              <img src="images/JacquelinePalevich.JPG" alt="Jacqueline Palevich" width="125">
+              <div class="img-overlay"><p>Jacqueline Palevich</p></div>
+            </div>
+            <div class="img-with-popup-wrapper">
+              <img src="images/ConnorDuncan.jpg" alt="Connor Duncan" width="125">
+              <div class="img-overlay"><p>Connor Duncan</p></div>
+            </div>
+            <div class="img-with-popup-wrapper">
+              <img src="images/WilliamGvozdjak.jpg" alt="William Gvozdjak" width="125">
+              <div class="img-overlay"><p>William Gvozdjak</p></div>
+            </div>
         </div>
     </div>
-    
+
     <div id="calendar-div">
         <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23fee2b4&amp;ctz=America%2FLos_Angeles&amp;src=YWJvanEyZDJ2NTNzamZhaDJjN28xM2ZiZG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23F6BF26&amp;color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         <div id="calendar-text">
@@ -99,9 +116,9 @@
             </ol>
         </div>
     </div>
-    
-    
-    
+
+
+
     </div>
     <!--- don't do any html content outside of this div, this is the content wrapper */ --->
     <script src="javascriptFiles/app.js">
