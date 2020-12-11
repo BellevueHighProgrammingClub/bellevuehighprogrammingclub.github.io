@@ -217,11 +217,8 @@ delete stuff below if it doesn't work.
     margin-bottom: 0px;
     padding: 30px;
     font-family: 'Cormorant', sans-serif;
-    font-size: 50px;
-    div.a {
-      line-height: 20%;
-    }
-    
+    font-size: 50px;  
+    line-height: 20%;
 }
 
 img {
