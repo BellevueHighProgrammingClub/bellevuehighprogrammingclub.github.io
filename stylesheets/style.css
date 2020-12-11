@@ -181,6 +181,7 @@ h1 {
 .page-content {
   margin: 30px 30px 30px 30px;
   padding: 0px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .page-content > ul {
