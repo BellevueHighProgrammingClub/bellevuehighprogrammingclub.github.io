@@ -10,7 +10,7 @@ body {
 */
 /* Style the navigation menu */
 #topnav {
-  background-color: #fee2b4;
+  background-color: #fdbb30;
   overflow: hidden;
   margin: 60px 0px 0px;
   padding: 0px;
@@ -181,6 +181,7 @@ h1 {
 .page-content {
   margin: 30px 30px 30px 30px;
   padding: 0px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .page-content > ul {
@@ -210,16 +211,17 @@ delete stuff below if it doesn't work.
   padding-top: 0px !important;
 }
 
+
 .name{
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 30px;
     font-family: 'Cormorant', sans-serif;
     font-size: 50px;
-}
-
-div.a {
-  line-height: normal;
+    div.a {
+      line-height: 20%;
+    }
+    
 }
 
 img {
