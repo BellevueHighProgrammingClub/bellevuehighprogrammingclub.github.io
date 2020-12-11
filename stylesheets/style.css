@@ -210,12 +210,14 @@ delete stuff below if it doesn't work.
   padding-top: 0px !important;
 }
 
+
 .name{
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 30px;
     font-family: 'Cormorant', sans-serif;
     font-size: 50px;
+    <span style="font-size: 75%; line-height: 16px; display:block">blog posts & occasional updates (updates max 1 every 14 days)</span>
 }
 
 div.a {
