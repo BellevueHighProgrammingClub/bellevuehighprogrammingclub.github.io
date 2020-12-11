@@ -1,3 +1,6 @@
 .image {
     vertical-align: middle;
 }
+body {
+    overflow-y: scroll;
+}
