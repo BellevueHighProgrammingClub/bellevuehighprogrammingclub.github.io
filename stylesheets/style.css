@@ -218,11 +218,10 @@ delete stuff below if it doesn't work.
     padding: 30px;
     font-family: 'Cormorant', sans-serif;
     font-size: 50px;
+    div.a {
+      line-height: 20%;
+    }
     
-}
-
-div.a {
-  line-height: 20%;
 }
 
 img {
