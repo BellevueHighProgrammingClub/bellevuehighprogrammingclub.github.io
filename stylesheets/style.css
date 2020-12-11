@@ -10,7 +10,7 @@ body {
 */
 /* Style the navigation menu */
 #topnav {
-  background-color: #fee2b4;
+  background-color: #fdbb30;
   overflow: hidden;
   margin: 60px 0px 0px;
   padding: 0px;
@@ -18,6 +18,7 @@ body {
   width: 100%;
   height: fit-content;
   vertical-align: middle;
+  z-index: 100;
 }
 
 /* Navigation links */
@@ -31,7 +32,7 @@ body {
   background-color: inherit;
   /* used to not have this float line */
   float: left;
-  
+
   font-size: 17px;
   width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
@@ -128,9 +129,9 @@ body {
   left: 0px;
   top: 0px;
   position: absolute;
-  
+
 }
-  
+
 .rectangle:before {
   width: 0;
   height: 0;
@@ -218,11 +219,7 @@ delete stuff below if it doesn't work.
     padding: 30px;
     font-family: 'Cormorant', sans-serif;
     font-size: 50px;
-    
-}
-
-div.a {
-  line-height: 1cm;
+    line-height: 20%;
 }
 
 img {

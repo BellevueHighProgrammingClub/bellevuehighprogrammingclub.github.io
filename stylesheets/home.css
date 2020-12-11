@@ -26,14 +26,14 @@ iframe {
     float: left;
     height: 500px;
     width: 30%;
-    margin-left: 45px;  
+    margin-left: 45px;
     margin-top: 45px;
 }
 
 #trapezoid-1 {
     text-align: center;
     color: white;
-    
+
     float: left;
     border-bottom: 300px solid #002a5c;
     border-left: 0px solid transparent;
@@ -58,7 +58,7 @@ iframe {
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 25px;
-    
+
     float: left;
     border-bottom: 300px solid #fee2b4;
     border-left: 0px solid transparent;
@@ -92,7 +92,7 @@ iframe {
     width: 100%;
     height: fit-content;
     float: left;
-    
+
     background-color: #ededed;
 }
 
@@ -120,4 +120,35 @@ iframe {
 
 #about-image img {
     width: 100%;
+}
+
+.img-with-popup-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 125px;
+  height: 125px;
+}
+.img-overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius: 1000px;
+  background-color:rgba(0, 0, 0, 0.35);
+  z-index: 1;
+  color: white;
+  display: none;
+}
+.img-overlay p {
+  display: inline;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  margin: 0;
+}
+.img-with-popup-wrapper:hover .img-overlay {
+  display: block;
 }
