@@ -10,7 +10,7 @@ body {
 */
 /* Style the navigation menu */
 #topnav {
-  background-color: #fdbb30;
+  background-color: #fee2b4;
   overflow: hidden;
   margin: 60px 0px 0px;
   padding: 0px;
@@ -125,7 +125,7 @@ body {
 .rectangle {
   height: 60px;
   width: 950px;
-  background-color: #203864;
+  background-color: #002a5c;
   left: 0px;
   top: 0px;
   position: absolute;
@@ -140,7 +140,7 @@ body {
   top: 0px;
   left: 950px;
   border-top: 30px solid transparent;
-  border-left: 60px solid #203864;
+  border-left: 60px solid #002a5c;
   border-bottom: 30px solid transparent;
 }
 
