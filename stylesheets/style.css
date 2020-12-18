@@ -22,7 +22,7 @@ body {
 }
 
 /* Navigation links */
-#topnav > a, .dropdown, .members-button, .events-button {
+#topnav > a, .dropdown, .members-button {
   display: inline-block;
   padding: 12px;
   color: #0b2727;
@@ -73,16 +73,9 @@ body {
   background-color: #203864;
   z-index: 1;
   min-width: 15%;
+  max-height: 300px;
   transition: 0.3s;
   overflow: auto;
-}
-
-.members-dropdown {
-  max-height: 300px;
-}
-
-.events-dropdown {
-  max-height: 150px;
 }
 
 #dropdown-content::-webkit-scrollbar {
@@ -189,7 +182,7 @@ h1 {
 .page-content {
   margin: 30px 30px 30px 30px;
   padding: 0px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .page-content > ul {
