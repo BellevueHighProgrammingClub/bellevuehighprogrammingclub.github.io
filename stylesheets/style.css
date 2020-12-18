@@ -20,7 +20,6 @@ body {
   vertical-align: middle;
   z-index: 100;
 }
-
 /* Navigation links */
 #topnav > a, .dropdown, .members-button, .events-button {
   display: inline-block;
@@ -34,7 +33,7 @@ body {
   float: left;
 
   font-size: 17px;
-  width: 18%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
   font-family: 'Merriweather Sans', sans-serif;
 }
@@ -61,11 +60,11 @@ body {
   margin: 0px;
 }
 
-.dropdown:hover #dropdown-content{
+.dropdown:hover #dropdown-content, .dropdown:hover #dropdown-content-events{
   height: 100%;
 }
 
-#dropdown-content {
+#dropdown-content, #dropdown-content-events {
   /* used to be 12px for margin top instead of 2.2% */
   margin-top: 33.5px;
   height: 0%;
@@ -77,31 +76,31 @@ body {
   overflow: auto;
 }
 
-.members-dropdown {
+#dropdown-content {
   max-height: 300px;
 }
 
-.events-dropdown {
+#dropdown-content-events {
   max-height: 150px;
 }
 
-#dropdown-content::-webkit-scrollbar {
+#dropdown-content::-webkit-scrollbar, #dropdown-content-events::-webkit-scrollbar {
   width: 10px;
 }
 
-#dropdown-content::-webkit-scrollbar-track {
+#dropdown-content::-webkit-scrollbar-track, #dropdown-content-events::-webkit-scrollbar-track {
   background: #0e2d5d;
 }
 
-#dropdown-content::-webkit-scrollbar-thumb {
+#dropdown-content::-webkit-scrollbar-thumb, #dropdown-content-events::-webkit-scrollbar-thumb {
   background: #4b6086;
 }
 
-#dropdown-content::-webkit-scrollbar-thumb:hover {
+#dropdown-content::-webkit-scrollbar-thumb:hover, #dropdown-content-events::-webkit-scrollbar-thumb:hover {
   background: #5a6f96;
 }
 
-#dropdown-content a {
+#dropdown-content a, #dropdown-content-events a {
   float: none;
   color: white;
   display: block;
@@ -109,9 +108,12 @@ body {
   text-decoration: none;
 }
 
-#dropdown-content a:hover {
+#dropdown-content a:hover, #dropdown-content-events a:hover {
   background-color: #304772;
 }
+
+
+
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
