@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Industry Presentations | BHS Programming Club
+        </title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="stylesheet" href="stylesheets/internships.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@423&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="heading">
+        <div class="rectangle"><p class = "shape-text">BHS Programming Club</p></div>
+        <div id="topnav">
+        <a href="https://bellevuehighprogrammingclub.github.io/">Home</a>
+        <a href="mentoring.html">Mentoring</a>
+
+        <div class="dropdown">
+            <p class="members-button">Members
+            </p>
+            <div id="dropdown-content">
+                <!-- Should make use JS to populate member links -->
+                <a href="membersPages/PalevichJacqueline.html">Jacqueline Palevich</a>
+                <a href="membersPages/basicMember.html">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+                <a href="#">MEMBER_NAME</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+        	<p class="events-button">Events
+            </p>
+            <div id="dropdown-content-events">
+            	<a href="internships.html">Internships</a>
+                <a href="competitions.html">Competitions</a>
+                <a href="industryPresentations.html">Industry Presentations</a>
+            </div>
+        </div>
+        <a href="contact.html">Contact Us</a>
+    </div>
+        </div>
+        <div id="content">
+        <h1> Industry Presentations </h1>
+        <div class="content-wrapper">
+            <div class="page">
+                <div class="page-content">
+                    <div class="row">
+                        <div class="column">
+                        <h2> Introduction </h2>
+                        <p> One of the highlights of Programming Club is the opportunity for club members and CS Students at BHS to hear from industry 
+                        professionals with multiple years of experiene in STEM fields. From learning about what makes them passionate abbout their job, to asking questions
+                        like daily life at work, this opportunity is an invaluable experience for students who are interested in pursuing a CS or STEM career.
+                            </p>
+                       <h2> Upcoming Presentations </h2>
+                       <table>
+                            <tr>
+                                <th>Name</th>
+                                <th>Description</th>
+                                </tr>
+                            <tr>
+                                <td>Jack Palevich</td>
+                                <td>TBA</td>
+                                    </tr>
+                 </div>
+            </div>
+      </div>
+                
+                
+                
+        </div>
+            
+        <script src="javascriptFiles/app.js">
+        </script>
+    </body>
+</html>
