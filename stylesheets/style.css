@@ -100,11 +100,12 @@ body {
   background: #5a6f96;
 }
 
-#dropdown-content a, #dropdown-content-events a {
+#dropdown-content p, #dropdown-content-events a {
   float: none;
   color: white;
   display: block;
   padding: 12px 12px;
+  margin: 0px;
   text-decoration: none;
 }
 
