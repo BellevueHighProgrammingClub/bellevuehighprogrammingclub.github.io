@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: bellevuehighprogrammingclub.github.io
-Token: e28d506cb5e5e4f9b720eb0e8e110d739bdd58e4bacfecef72de172158a7f232
